@@ -1,0 +1,7 @@
+{
+	"name": "fonsekaean/silverstripe-metadata",
+	"description":  "A fork for the SilverStirpe / silverstripe-metadata",
+	"require": {
+		"silverstripe/framework": "3.2.*@dev"
+	}
+}
