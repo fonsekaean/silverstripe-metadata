@@ -1,7 +1,21 @@
 {
-	"name": "fonsekaean/silverstripe-metadata",
-	"description":  "A fork for the SilverStirpe / silverstripe-metadata",
-	"require": {
-		"silverstripe/framework": "3.2.*@dev"
-	}
+    "name": "fonsekaean/silverstripe-metadata",
+    "type": "silverstripe-module",
+    "description": "silverstripe-metadata",
+    "keywords": ["silverstripe", "silverstripe-metadata"],
+    "require": {
+        "php": ">=5.3.2",
+        "composer/installers": "v1.0.4",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
+    },
+    "extra": {
+        "installer-name": "silverstripe-metadata"
+    },
+    "authors": [
+        {
+            "name": "SilverStripers",
+            "homepage": "http://silverstripers.com"
+        }
+    ]
 }
